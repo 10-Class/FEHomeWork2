@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    color: rgb(34, 95, 95);
+    transform: scale(1.2);
+}
+.social {
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+/* about us */
+
+#about-us {
+    display: flex;
+    height: 90vh;
+}
+
+.ofice {
+    width: 50vw;
+    height: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.text h2 {
+    font-size: 35px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+/* projects */
+
+#us-projects {
+    height: 90vh;
+    background-color: rgba(220, 255, 235, 1);
+}
+
+.projectdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+.projects {
+    width: 28vw;
+}
+
+.textPr {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px 124px 50px 64px;
+    font-size: 25px;
+}
+
+/* footer */
+.ft {
+    display: flex;
+}
+
+footer {
+    height: 50vh;
+}
+
+.footericon {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.textfoot {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px 124px 90px 64px;
+    font-size: 25px;
+} 
+
+.class {
+    padding-top: 36px;
+    color:rgba(153, 153, 153, 1);
+    text-align: 24px;
+}
+
+.info1 {
+    width: 250px;
+    height: 72px;
+}
+
+.info2 {
+    width: 140px;
+    height: 72px;
+}
+
+.info3 {
+    width: 105px;
+    height: 72px;
+}
+
+.info4 {
+    width: 200px;
+    height: 72px;
+}
+
+#pdi {
+    padding-top: 25px;
+    text-align: 24px;
+}
